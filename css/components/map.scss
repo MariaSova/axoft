@@ -1,0 +1,41 @@
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-bottom: rem(170px);
+}
+
+.block-map {
+    margin-bottom: rem(40px);
+}
+.title__map {
+    margin-left: rem(28px);
+    margin-top: rem(10px);
+    color: $darkblue;
+}
+
+.map__pic {
+    margin-bottom: rem(48px);
+}
+
+.map__content {
+    display: flex;
+}
+.map__box {
+    display: flex;
+    align-items: flex-end;
+    margin-right: rem(200px);
+
+    @include tablets {
+        margin-right: rem(30px);
+    }
+}
+.map__number {
+    font-size: rem(72px);
+    margin-right: rem(10px);
+}
+.map__text {
+    font-size: rem(36px);
+    margin-bottom: rem(18px);
+}

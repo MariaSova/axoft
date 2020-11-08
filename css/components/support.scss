@@ -1,0 +1,89 @@
+.support {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-support {
+    margin-top: 0;
+    margin-bottom: rem(40px);
+    margin-left: rem(20px);
+
+}
+
+.title__support {
+    margin-left: rem(40px);
+    margin-top: rem(10px);
+}
+.title-darkblue {
+    color: $darkblue;
+    font-size: rem(36px);
+    line-height: rem(41px);
+    text-transform: uppercase;
+    margin-top: rem(10px);
+}
+
+.support__title {
+    color: $darkblue;
+    font-size: rem(36px);
+    line-height: rem(41px);
+    text-transform: uppercase;
+}
+
+.support__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: rem(50px);
+
+    @include tablets {
+        margin-bottom: rem(30px);
+    }
+
+    @include phones {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+.support__content-block {
+    display: flex;
+    margin-right: rem(52px);
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @include tablets {
+        margin-right: rem(20px);
+    }
+}
+
+.support__number {
+    font-size: rem(96px);
+    color: #C4C4C4;
+    margin-right: rem(40px);
+
+    @include tablets {
+        margin-right: rem(10px);
+    }
+
+}
+.first-number {
+    color: #00B37D;
+    margin-left: rem(30px);
+
+    @include tablets {
+        margin-left: rem(15px);
+    }
+}
+
+.support__texts {
+    margin-top: rem(25px);
+}
+
+.support__text {
+    margin-bottom: rem(20px);
+}
+
+
